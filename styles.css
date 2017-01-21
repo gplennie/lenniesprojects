@@ -1,0 +1,84 @@
+/* comment line */
+
+html {
+	background-color: #f2f2f2;
+	background-image: url("concrete_seamless.png");
+}
+
+.page-title {
+	font-family: 'Courier New', serif;
+	text-align: center;
+	letter-spacing: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid black;
+	text-shadow: 1px 1px #00c5ff;
+	
+}
+
+.cars {
+	font-family: 'Segoe UI Light', sans-serif, serif;
+	font-style: italic;
+	letter-spacing: 1.5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.specs {
+	font-family: 'Courier New';
+}
+
+.cars h4 {
+	cursor: pointer;
+}
+
+.cars h4 a:hover {
+	color: #00c5ff;
+}
+
+.sub-title {
+	font-family:  'Segoe UI Light', sans-serif, serif;
+	font-style: italic;
+	text-align: center;
+	letter-spacing: 1.5px;
+}
+
+.description {
+	font-family: 'Segoe UI Light', sans-serif, serif;
+}
+
+.showcase-content {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.showcase-image {
+	margin: 20px;
+	border: 5px solid white;
+}
+
+
+ul {
+	list-style: square;
+}
+
+figure h4 {
+	text-align: center;
+	margin: 2px;
+}
+
+figure img {
+	border: 5px solid white;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+footer h6 {
+	text-align: center;
+	font-family: 'Courier New', serif;
+}
